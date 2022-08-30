@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 
         try {
             
-            const toKey = new PublicKey("<Replace with your key>");
+            const toKey = new PublicKey("9izbhgwtHVeLCUX8YeHXwnAWm5Mw8taPsExqfSi77qT9");
             const [escrowPDA] = await web3.PublicKey.findProgramAddress(
                 [utf8.encode('escrow'), anchorWallet.publicKey.toBuffer(), toKey.toBuffer()],
                 program.programId,
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
         <div className={styles.container}>
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a>
+                    <a href="https://i.pinimg.com/originals/24/80/3c/24803c9ff9de2275fde3bce8dff6f7a0.gif"> Choupinou Chouuuups</a>
                 </h1>
 
                 <div className={styles.walletButtons}>
